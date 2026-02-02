@@ -28,27 +28,22 @@ A solucao contempla:
 ## Estrutura do Projeto
 
 teste_olinto/
-?
-??? data/
-? ??? 2T2025.zip
-? ??? 3T2025.zip
-? ??? cadastro_operadoras_ativas.csv
-?
-??? output/
-? ??? Despesas_Eventos_Sinistros/
-? ??? consolidado_despesas.csv
-? ??? consolidado_despesas_enriquecido.csv
-? ??? sql_import/
-?
-??? src/
-? ??? main.py
-? ??? prep_sql_import.py
-? ??? api.py
-?
-??? sql/
-?
-??? README.md
-??? requirements.txt
+  data/
+    2T2025.zip
+    3T2025.zip
+    cadastro_operadoras_ativas.csv
+    output/
+    Despesas_Eventos_Sinistros/
+    consolidado_despesas.csv
+    consolidado_despesas_enriquecido.csv
+    sql_import/
+  src/
+    main.py
+    prep_sql_import.py
+    api.py
+    sql/
+  README.md
+  requirements.txt
 
 
 ---
@@ -116,7 +111,7 @@ A API foi desenvolvida com FastAPI e exposta via Uvicorn.
 
 ## Observacoes Importantes
 
-- Alguns textos podem apresentar caracteres especiais incorretos (ex: "SAÃ?DE") devido a inconsistencias de encoding nos dados originais da ANS.
+- Alguns textos podem apresentar caracteres especiais incorretos (ex: "SAÃƒ?DE") devido a inconsistencias de encoding nos dados originais da ANS.
 - O problema foi identificado e documentado, nao impactando a integridade numerica nem as analises solicitadas.
 - Todas as decisoes tecnicas foram tomadas priorizando confiabilidade, rastreabilidade e facilidade de justificacao.
 
@@ -137,5 +132,6 @@ Acessar a documentacao interativa:
 http://127.0.0.1:8000/docs
 
 Conclusao
+
 
 O projeto entrega uma solucao funcional, escalavel e alinhada a cenarios reais de engenharia de dados e backend, cobrindo todo o ciclo de ingestao, processamento, armazenamento, analise e exposicao via API.
