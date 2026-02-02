@@ -28,22 +28,18 @@ A solucao contempla:
 ## Estrutura do Projeto
 
 teste_olinto/
-  data/
-    2T2025.zip
-    3T2025.zip
-    cadastro_operadoras_ativas.csv
-    output/
-    Despesas_Eventos_Sinistros/
-    consolidado_despesas.csv
-    consolidado_despesas_enriquecido.csv
-    sql_import/
-  src/
-    main.py
-    prep_sql_import.py
-    api.py
-    sql/
   README.md
   requirements.txt
+  src/
+      main.py
+      prep_sql_import.py
+      ans_api.py
+      api.py
+      config.py
+      debug_cadop
+      debug_header
+      main.py
+    
 
 
 ---
@@ -135,3 +131,4 @@ Conclusao
 
 
 O projeto entrega uma solucao funcional, escalavel e alinhada a cenarios reais de engenharia de dados e backend, cobrindo todo o ciclo de ingestao, processamento, armazenamento, analise e exposicao via API.
+
